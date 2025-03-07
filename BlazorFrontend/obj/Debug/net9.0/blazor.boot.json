@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorFrontend",
   "resources": {
-    "hash": "sha256-p77GGqrm1qrmlJw75wQWAbkolRS/elfy+qwIFdzc+0A=",
+    "hash": "sha256-eWHhqN8ivT/0et2p5hh8sLkR05yNrIbH6rtjV0m1Vd8=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,10 +201,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "SchoolLibrary.vc4dzork4e.wasm": "SchoolLibrary.wasm",
-      "SchoolLibrary.5iq96teire.pdb": "SchoolLibrary.pdb",
-      "BlazorFrontend.ewhvjxq2py.wasm": "BlazorFrontend.wasm",
-      "BlazorFrontend.ixxaosizs5.pdb": "BlazorFrontend.pdb"
+      "SchoolLibrary.gp0ruq7s4p.wasm": "SchoolLibrary.wasm",
+      "SchoolLibrary.4djctushka.pdb": "SchoolLibrary.pdb",
+      "BlazorFrontend.s9d0llkcmo.wasm": "BlazorFrontend.wasm",
+      "BlazorFrontend.ufmjaff5w0.pdb": "BlazorFrontend.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -414,12 +414,12 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "SchoolLibrary.vc4dzork4e.wasm": "sha256-T2p5F87i9zcGiRD/BFW1qwq3up5+atsogBK7vMU+YCo=",
-      "BlazorFrontend.ewhvjxq2py.wasm": "sha256-olxObl5MmcDaceLk0GRdymjHcO9thbBjfQpvVBPKj7I="
+      "SchoolLibrary.gp0ruq7s4p.wasm": "sha256-VDJZQ3PgFbZIkGPL/99BkkVmkOvLDT5ccPsqcRcbHrc=",
+      "BlazorFrontend.s9d0llkcmo.wasm": "sha256-MCyIk0hS2FYxAm6VDSzhWEyQYRbWqmZ5QulgH3Du2yI="
     },
     "pdb": {
-      "SchoolLibrary.5iq96teire.pdb": "sha256-k1ekXVN2d0PhqKzKrgsNfsjbErCKGXd0rzTOKbZro7g=",
-      "BlazorFrontend.ixxaosizs5.pdb": "sha256-RrIqyQqVZidenZvC7i3WJfpIi+kzD+z9Ha7gHHn2Pak="
+      "SchoolLibrary.4djctushka.pdb": "sha256-CGKjjHVvaoFrFi47du/MN733ViyLQbY03SPvJBSOw7A=",
+      "BlazorFrontend.ufmjaff5w0.pdb": "sha256-Wg6nLbD0fGdyUzvFqRVayiW1Hwe4ZWghS3klSIVsO34="
     }
   },
   "cacheBootResources": true,

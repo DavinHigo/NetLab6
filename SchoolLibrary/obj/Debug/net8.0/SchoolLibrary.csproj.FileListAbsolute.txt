@@ -1,0 +1,14 @@
+C:\Users\davin\4870 Workspace\Lab6\Functions2025\bin\output\SchoolLibrary.deps.json
+C:\Users\davin\4870 Workspace\Lab6\Functions2025\bin\output\SchoolLibrary.dll
+C:\Users\davin\4870 Workspace\Lab6\Functions2025\bin\output\SchoolLibrary.pdb
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\obj\Debug\net8.0\SchoolLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\obj\Debug\net8.0\SchoolLibrary.AssemblyInfoInputs.cache
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\obj\Debug\net8.0\SchoolLibrary.AssemblyInfo.cs
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\obj\Debug\net8.0\SchoolLibrary.csproj.CoreCompileInputs.cache
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\obj\Debug\net8.0\SchoolLibrary.dll
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\obj\Debug\net8.0\refint\SchoolLibrary.dll
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\obj\Debug\net8.0\SchoolLibrary.pdb
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\obj\Debug\net8.0\ref\SchoolLibrary.dll
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\bin\Debug\net8.0\SchoolLibrary.deps.json
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\bin\Debug\net8.0\SchoolLibrary.dll
+C:\Users\davin\4870 Workspace\Lab6\SchoolLibrary\bin\Debug\net8.0\SchoolLibrary.pdb

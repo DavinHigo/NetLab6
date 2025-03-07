@@ -1,0 +1,56 @@
+@page "/"
+@using BlazorFrontend.Services
+@using SchoolLibrary
+@inject StudentServices StudentServices
+
+<h3>Students by School</h3>
+
+<div>
+    <label for="school">Enter School Name:</label>
+    <input id="school" @bind="school" placeholder="e.g., Hogwarts" />
+    <button @onclick="LoadStudents">Load Students</button>
+</div>
+
+@if (students != null && students.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>School</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in students)
+            {
+                <tr>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>@student.School</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (hasSearched)
+{
+    <p>No students found for the school: @school</p>
+}
+
+@code {
+    private string school = "";
+    private List<Student> students = new();
+    private bool hasSearched = false;
+
+    private async Task LoadStudents()
+    {
+        if (string.IsNullOrWhiteSpace(school))
+        {
+            return;
+        }
+
+        students = await StudentServices.GetStudentsBySchoolAsync(school);
+        hasSearched = true;
+    }
+}

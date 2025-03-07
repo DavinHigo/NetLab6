@@ -1,0 +1,44 @@
+@page "/student-count-by-school"
+@using BlazorFrontend.Services
+@using SchoolLibrary
+@inject StudentServices StudentServices
+
+<h3>Student Count by School</h3>
+
+<button @onclick="LoadReport">Load Report</button>
+
+@if (report != null && report.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>School</th>
+                <th>Student Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in report)
+            {
+                <tr>
+                    <td>@item.School</td>
+                    <td>@item.StudentCount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (hasLoaded)
+{
+    <p>No data available.</p>
+}
+
+@code {
+    private List<SchoolReport> report = new();
+    private bool hasLoaded = false;
+
+    private async Task LoadReport()
+    {
+        report = await StudentServices.GetStudentCountBySchoolAsync();
+        hasLoaded = true;
+    }
+}

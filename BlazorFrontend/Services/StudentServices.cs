@@ -19,7 +19,7 @@ namespace BlazorFrontend.Services
         // Method to get students by school
         public async Task<List<Student>> GetStudentsBySchoolAsync(string school)
         {
-            var response = await _httpClient.GetAsync($"{Constants.BaseUrl}students/school/{school}");
+            var response = await _httpClient.GetAsync($"{Constants.BaseUrl}api/students/school/{school}");
             response.EnsureSuccessStatusCode(); // Ensure the request was successful
 
             var students = await response.Content.ReadFromJsonAsync<List<Student>>();
@@ -29,7 +29,7 @@ namespace BlazorFrontend.Services
         // Method to get student count by school
         public async Task<List<SchoolReport>> GetStudentCountBySchoolAsync()
         {
-            var response = await _httpClient.GetAsync($"{Constants.BaseUrl}students/count-by-school");
+            var response = await _httpClient.GetAsync($"{Constants.BaseUrl}api/students/count-by-school");
             response.EnsureSuccessStatusCode(); // Ensure the request was successful
 
             var report = await response.Content.ReadFromJsonAsync<List<SchoolReport>>();

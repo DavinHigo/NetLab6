@@ -136,7 +136,7 @@ public class HttpWebAPI
     // New Function: Get Students by School
     [Function("GetStudentsBySchool")]
     public HttpResponseData GetStudentsBySchool(
-        [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "students/school/{school}")] HttpRequestData req,
+        [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "api/students/school/{school}")] HttpRequestData req,
         string school)
     {
         _logger.LogInformation("C# HTTP GET trigger function processed a request to get students by school.");
@@ -155,7 +155,7 @@ public class HttpWebAPI
     // New Function: Get Student Count by School
     [Function("GetStudentCountBySchool")]
     public HttpResponseData GetStudentCountBySchool(
-        [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "students/count-by-school")] HttpRequestData req)
+        [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "api/students/count-by-school")] HttpRequestData req)
     {
         _logger.LogInformation("C# HTTP GET trigger function processed a request to get student count by school.");
 
